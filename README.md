@@ -7,6 +7,14 @@ If you find the password (parameter pass), you should print its value after all 
 Note: the order of parameters should be the same as in the URL.
 Advice: Check examples for better understanding and carefully learn the structure of the URL.
 
-Sample Input 1:
+#### Sample Input:
 
 https://target.com/index.html?pass=12345&port=8080&cookie=&host=localhost
+
+#### Sample Output:
+
+ pass : 12345<br>
+ port : 8080<br>
+ cookie : not found<br>
+ host : localhost<br>
+ password : 12345
